@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skylinelin.meituangrid.MainActivity">
+
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:columnCount="5">
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_beauty"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="剪发"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_entertainment"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="休闲"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_film"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="猫眼电影"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_food"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="美食"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+              android:src="@drawable/ic_category_go_out"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="风景"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+              android:src="@drawable/ic_category_hotel"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="办公"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+              android:src="@drawable/ic_category_ktv"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="KTV"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_takeout"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="外卖"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_ticket"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="出行"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="76dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:maxWidth="48dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="8dp"
+               android:src="@drawable/ic_category_travel"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="8dp"
+               android:text="旅游"/>
+
+       </LinearLayout>
+   </GridLayout>
+
+</LinearLayout>
